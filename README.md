@@ -14,7 +14,7 @@ Add the repository to your pom.xml:
     <repository>
       <id>auto-bean-info-repo</id>
       <name>Public repo</name>
-      <url>http://simonegianni-maven-repo.s3-website.eu-central-1.amazonaws.com</url>
+      <url>http://simonegianni-maven-repo.s3-website.eu-central-1.amazonaws.com/release</url>
     </repository>
   </repositories>
 ```
