@@ -6,4 +6,5 @@ install: true
 script: mvn clean test
 
 after_success:
-  - mvn deploy --settings settings.xml
+  - mvn deploy -P github --settings settings.xml
+  - mvn deploy -P s3
